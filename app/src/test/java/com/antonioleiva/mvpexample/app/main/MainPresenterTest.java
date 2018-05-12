@@ -1,5 +1,9 @@
 package com.antonioleiva.mvpexample.app.main;
 
+import com.antonioleiva.mvpexample.app.main.interactor.FindItemsInteractor;
+import com.antonioleiva.mvpexample.app.main.presenter.MainPresenterImpl;
+import com.antonioleiva.mvpexample.app.main.view.MainView;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

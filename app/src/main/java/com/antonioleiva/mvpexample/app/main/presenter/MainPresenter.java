@@ -16,16 +16,13 @@
  *
  */
 
-package com.antonioleiva.mvpexample.app.Login;
+package com.antonioleiva.mvpexample.app.main.presenter;
 
-public interface LoginView {
-    void showProgress();
+public interface MainPresenter {
 
-    void hideProgress();
+    void onResume();
 
-    void setUsernameError();
+    void onItemClicked(int position);
 
-    void setPasswordError();
-
-    void navigateToHome();
+    void onDestroy();
 }

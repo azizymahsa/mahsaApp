@@ -16,10 +16,15 @@
  *
  */
 
-package com.antonioleiva.mvpexample.app.Login;
+package com.antonioleiva.mvpexample.app.main.interactor;
 
-public interface LoginPresenter {
-    void validateCredentials(String username, String password);
+import java.util.List;
 
-    void onDestroy();
+public interface FindItemsInteractor {
+
+    interface OnFinishedListener {
+        void onFinished(List<String> items);
+    }
+
+    void findItems(OnFinishedListener listener);
 }

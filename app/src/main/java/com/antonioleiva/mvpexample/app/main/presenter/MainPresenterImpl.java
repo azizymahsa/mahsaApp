@@ -16,7 +16,10 @@
  *
  */
 
-package com.antonioleiva.mvpexample.app.main;
+package com.antonioleiva.mvpexample.app.main.presenter;
+
+import com.antonioleiva.mvpexample.app.main.view.MainView;
+import com.antonioleiva.mvpexample.app.main.interactor.FindItemsInteractor;
 
 import java.util.List;
 

@@ -16,7 +16,10 @@
  *
  */
 
-package com.antonioleiva.mvpexample.app.Login;
+package com.antonioleiva.mvpexample.app.Login.presenters;
+
+import com.antonioleiva.mvpexample.app.Login.interactor.LoginInteractor;
+import com.antonioleiva.mvpexample.app.Login.view.LoginView;
 
 public class LoginPresenterImpl implements LoginPresenter, LoginInteractor.OnLoginFinishedListener {
 

@@ -1,7 +1,9 @@
-package com.antonioleiva.mvpexample.app.Login;
+package com.antonioleiva.mvpexample.app.Login.interactor;
 
 import android.os.Handler;
 import android.text.TextUtils;
+
+import com.antonioleiva.mvpexample.app.Login.interactor.LoginInteractor;
 
 public class LoginInteractorImpl implements LoginInteractor {
 

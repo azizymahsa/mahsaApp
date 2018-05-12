@@ -16,18 +16,10 @@
  *
  */
 
-package com.antonioleiva.mvpexample.app.Login;
+package com.antonioleiva.mvpexample.app.Login.presenters;
 
-public interface LoginInteractor {
+public interface LoginPresenter {
+    void validateCredentials(String username, String password);
 
-    interface OnLoginFinishedListener {
-        void onUsernameError();
-
-        void onPasswordError();
-
-        void onSuccess();
-    }
-
-    void login(String username, String password, OnLoginFinishedListener listener);
-
+    void onDestroy();
 }
